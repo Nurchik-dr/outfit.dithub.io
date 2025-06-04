@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding: 0 40px;
+    background-color: #ffffff;
+    gap: 40px;
+}
+
+.burger {
+    margin-top: 25px;
+    width: 22px;
+    height: 12px;
+    margin-left: 50px;
+}
+
+/* .out {
+    margin-left: 102px;
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+    display: flex;
+
+    position: absolute;
+    width: 151px;
+    height: 30px;
+    margin-top: 23px;
+
+} */
+.logo {
+    width: 151px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+    color: #171717;
+    line-height: 20px;
+}
+
+.menu li {
+    cursor: pointer;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
+.spis {
+    margin-top: 23px;
+    font-size: 12px;
+    font-weight: 400px;
+    font-style: normal;
+    color: #171717;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.05px;
+    line-height: 20px;
+}
+
+.fut {
+    width: 77px;
+    height: 20px;
+    margin-left: 100px;
+}
+
+.swi {
+
+    width: 81px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.hud {
+    width: 37px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.rub {
+    /* Рубашки */
+
+
+    width: 69px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.kep {
+    /* Кепки */
+
+
+    width: 46px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.shap {
+    /* Шапки */
+
+
+    width: 52px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.polo {
+    /* Поло */
+
+
+    width: 41px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.ruk {
+    /* Рюкзаки */
+
+
+    width: 69px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.suvi {
+    /* Сувениры */
+
+
+    width: 76px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.poi {
+    /* ПоИСК */
+
+
+    width: 49px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.onas {
+    /* О НАС */
+
+
+    width: 44px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.nov {
+    /* НОВОСТИ */
+
+
+    width: 69px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.prof {
+    /* ПРОФИЛЬ */
+
+
+    width: 71px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+.kor {
+
+    width: 90px;
+    height: 20px;
+    margin-left: 23px;
+}
+
+hr {
+    /* Rectangle */
+
+    position: absolute;
+    width: 1920px;
+    margin-top: 61px;
+
+    background: #E5E5E5;
+
+}
+
+/* .kolek {
+    width: 327;
+    height: 103;
+    margin-top: 290px;
+    margin-left: 335px;
+
+} */
+
+
+/* .butt {
+    width: 314;
+    height: 54;
+    margin-top: 20px;
+    margin-left: 335px;
+
+}
+.ozno {
+    width: 184px;
+    height: 20px;
+} */
+.foto {
+    background-image: url(./88427c8045cf37e0c9221679ae04e7479fc0dee2.jpg);
+    /* замени на путь к твоему фото */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    width: 1700px;
+    height: 574px;
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.kolek {
+    width: 327px;
+    height: 103px;
+    margin-left: 225px;
+    text-transform: uppercase;
+    padding-top: 150px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+}
+
+.ozno {
+    display: inline-block;
+    width: 314px;
+    height: 54px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 54px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 225px;
+    margin-top: 321px;
+    border-radius: 8px;
+}
+
+/* .fotki {
+    background-image: url(./b342f1714b2477db30ba4bb8c862e264101783ec.jpg);
+    background-image: url(./84f9f909695346745074c2a4dc914082cd53580d.jpg);
+    background-image: url(./ec33ed8d5d5e24862cf49a60a3e0039329a344b5.jpg);
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+    height: 220px;
+    margin-left: 164px;
+} */
+/* .fotki img {
+    width: 550px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.foto1 {
+    margin-left: 164px;
+} */
+.cards {
+    display: flex;
+    gap: 25px;
+    margin-left: 100px;
+    margin-top: 22px;
+}
+
+.card {
+    width: 550px;
+    height: 220px;
+    /* background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  color: white;
+*/
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+
+.card-content p {
+    font-size: 30px;
+    margin: 10px 0;
+    line-height: 34px;
+    padding-left: 30px;
+    width: 310px;
+    height: 68px;
+    letter-spacing: 1.05px;
+}
+
+.batn {
+    margin-left: 350px;
+    margin-top: 70px;
+    display: inline-block;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 54px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.btn {
+    font-size: 12px;
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nov2 {
+    width: 249px;
+    height: 33px;
+    margin-top: 70px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 836px;
+}
+
+.odezh {
+    display: flex;
+    gap: 20px;
+    margin-left: 370px;
+    margin-right: 300px;
+    padding-top: 20px;
+
+}
+
+.odezh img {
+    width: 367px;
+    height: 550px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.kot {
+    width: 550px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.smot{
+    margin-left: 950px;
+    margin-top: 30px;
+}
+.smot button {
+     width: 183px;
+    height: 44px;
+    background-color: #1C1B1B;
+    color: #FFFFFF;
+    border: 1px;
+}
+.odezh2 {
+    display: flex;
+    gap: 20px;
+    margin-left: 370px;
+    margin-right: 300px;
+    margin-top: 100px;
+
+}
+
+.odezh2 img {
+    width: 367px;
+    height: 224px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.kot2 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+.kot2 h3 {
+    font-size: 16px;
+    width: 228px;
+    height: 24px;
+} 
+.kot2 p {
+    color: #888888;
+    font-size: 14px;
+    width: 361px;
+    height: 144px;
+}
+.nov3 {
+    width: 249px;
+    height: 33px;
+    margin-top: 70px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 800px;
+    text-align: center;
+    padding-top: 40px;
+}
